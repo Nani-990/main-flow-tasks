@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruti Suzuki Car Models & Prices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2a3d56;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .car-types {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 50px 20px;
+        }
+
+        .car-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            margin: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .car-card:hover {
+            transform: scale(1.05);
+        }
+
+        .car-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-bottom: 2px solid #f4f4f9;
+        }
+
+        .car-card h2 {
+            font-size: 1.6rem;
+            margin: 15px 0;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+
+        .car-card p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .car-card .price {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #ff6600;
+            margin: 15px 0;
+        }
+
+        footer {
+            background-color: #2a3d56;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Maruti Suzuki Car Models & Prices</h1>
+    </header>
+
+    <section class="car-types">
+        <div class="car-card">
+            <img src="https://stat.overdrive.in/wp-content/uploads/2022/08/maruti-suzuki-new-alto-left-front-three-quarter3-1.jpg" alt="Maruti Suzuki Alto">
+            <h2>Maruti Suzuki Alto</h2>
+            <p>Compact and efficient, the Alto is perfect for city driving with great mileage.</p>
+            <div class="price">₹3,54,000</div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/112947/wagon-r-2022-exterior-right-front-three-quarter.jpeg?isig=0&q=75" alt="Maruti Suzuki Wagon R">
+            <h2>Maruti Suzuki Wagon R</h2>
+            <p>A spacious and family-friendly hatchback with modern features.</p>
+            <div class="price">₹5,20,000</div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://th.bing.com/th/id/OIP.OYUnnJJPJ0wzXmwyr9ZWdgHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Maruti Suzuki Swift">
+            <h2>Maruti Suzuki Swift</h2>
+            <p>Sporty design combined with excellent performance and fuel efficiency.</p>
+            <div class="price">₹6,50,000</div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.hindustantimes.com/auto/img/2022/03/22/1600x900/WhatsApp_Image_2022-03-22_at_11.00.56_AM_1647927409561_1647927423328.jpeg" alt="Maruti Suzuki Baleno">
+            <h2>Maruti Suzuki Baleno</h2>
+            <p>A stylish hatchback with premium features and a spacious interior.</p>
+            <div class="price">₹7,35,000</div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://wallpapercave.com/wp/wp8948347.jpg" alt="Maruti Suzuki Dzire">
+            <h2>Maruti Suzuki Dzire</h2>
+            <p>Comfortable and elegant sedan with advanced technology and great mileage.</p>
+            <div class="price">₹7,90,000</div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://th.bing.com/th/id/OIP.Nsdpiu6Kf1KhL-csSb68ogHaEK?rs=1&pid=ImgDetMain" alt="Maruti Suzuki Vitara Brezza">
+            <h2>Maruti Suzuki Vitara Brezza</h2>
+            <p>The compact SUV designed for those who love adventure and comfort.</p>
+            <div class="price">₹10,45,000</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Maruti Suzuki. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
